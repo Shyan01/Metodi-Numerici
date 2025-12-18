@@ -1,0 +1,5 @@
+Per permettere al programma di leggere il file excel e' necessario che lei installi openpyxl tramite il seguente comando:
+
+pip install openpyxl
+
+E ovviamente e' necessario pandas

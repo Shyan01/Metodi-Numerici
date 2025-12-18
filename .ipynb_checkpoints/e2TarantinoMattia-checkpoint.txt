@@ -1,0 +1,8 @@
+--------------------------------------------------------------------------|Prima Domanda|---------------------------------------------------------------------------|
+Dato che il valore che intendiamo cercare si trova vicino all'inizio dei valori tabellati, usiamo il metodo Forward che mantiene le informazioni dei punti iniziali.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+-------------------------------------------------------------------------|Secondo Quesito|-------------------------------------------------------------------------|
+Per stimare l'errore di questo polinomio ho semplicemente moltiplicato il coefficente n-esimo con la n-esima differenza, Cio' nasce dal fatto che:
+epsilon non sarebbe altro che la differenza tra la funzione sviluppata fino al n + 1 -esimo termine e la medesima funzione sviluppata fino alla n-esimo grado.
+ Risultando dunque il risultato precedentemente citato.
