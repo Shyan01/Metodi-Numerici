@@ -1,0 +1,30 @@
+----------------------------------------|Quesito Uno|----------------------------------------
+
+La condizione per far si che il sistema tenda al rilassamento è il seguente:
+
+		|a_ii| >= sum(|a_ij|) con i != j
+
+---------------------------------------------------------------------------------------------
+
+----------------------------------------|Quesito Due|----------------------------------------
+
+Le soluzioni sono le seguenti:
+-0.34189848723139576
+ 0.3067647594329704
+-0.22602687135037358
+-1.1686002833440075
+ 0.06002096097928126
+Effettuando 5 iterazioni
+---------------------------------------------------------------------------------------------
+
+----------------------------------------|Quesito Tre|----------------------------------------
+
+Le soluzioni sono :[-0.34189849  0.30676476 -0.22602687 -1.16860028  0.06002096]		Con w: 1.0		Iterando il processo: 5
+Le soluzioni sono :[-0.34483563  0.31057612 -0.22549856 -1.17118856  0.05924447]		Con w: 1.1		Iterando il processo: 5
+Le soluzioni sono :[-0.34161682  0.30653005 -0.22608485 -1.16912284  0.06025122]		Con w: 1.2		Iterando il processo: 8
+Le soluzioni sono :[-0.34209752  0.30716625 -0.22595471 -1.16861349  0.05979052]		Con w: 1.3		Iterando il processo: 11
+Le soluzioni sono :[-0.34182443  0.30691846 -0.22599822 -1.16835822  0.05986177]		Con w: 1.4		Iterando il processo: 15
+Le soluzioni sono :[-0.34107734  0.30637502 -0.22610287 -1.16738499  0.06003362]		Con w: 1.5		Iterando il processo: 19
+
+Come fosse normale aspettarsi le soluzioni convergono allo stesso valore, ma con una quantità di iterazioni differenti 
+dovuta al parametro w che superiore a 1.1 ne ostacola la convergenza
